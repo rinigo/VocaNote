@@ -9,6 +9,8 @@
 import UIKit
 
 class WordCell: UITableViewCell {
+    @IBOutlet weak var wordLabel: UILabel!
+    @IBOutlet weak var definitionLabel: UILabel!
 
     override func awakeFromNib() {
         super.awakeFromNib()

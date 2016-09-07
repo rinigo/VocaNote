@@ -9,5 +9,9 @@
 import UIKit
 
 class Bookmark: NSObject {
-
+    var Bookmarks: Array<Word> = []
+    
+    func addBookmark(word: Word ){
+        self.Bookmarks.insert(word, atIndex: 0)
+    }
 }

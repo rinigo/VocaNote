@@ -9,5 +9,11 @@
 import UIKit
 
 class Word: NSObject {
-
+    init(name: String, id: String) {
+        self.name = name
+        self.id = id
+    }
+    var name:String
+    var id:String
+//    var meaning = ""
 }
